@@ -18,5 +18,5 @@ IDE: IntelliJ IDEA Community Edition
 - При регистрации постояльцев приложение проводит авторасчёт стоимости проживания и проверяет корректность выбранных дат начала и конца пребывания в отеле, а также даёт возможность выбора постояльца из списка (если он есть в базе данных).
 
 ## Скриншоты
-![alt text](https://github.com/AugustLC/HotelApp/blob/main/screenshots/1.png)
-![alt text](https://github.com/AugustLC/HotelApp/blob/main/screenshots/2.png)
+![alt text](https://github.com/AugustLC/HotelApp/blob/main/screenshots/1.jpg)
+![alt text](https://github.com/AugustLC/HotelApp/blob/main/screenshots/2.jpg)
