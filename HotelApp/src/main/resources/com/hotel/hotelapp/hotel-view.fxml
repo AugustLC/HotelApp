@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hotel.hotelapp.HotelController">
+    <children>
+        <Button layoutX="458.0" layoutY="262.0" mnemonicParsing="false" onMouseClicked="#searchFreeRooms" prefHeight="25.0" prefWidth="122.0" text="Поиск свободного" />
+        <Button layoutX="458.0" layoutY="369.0" mnemonicParsing="false" onMouseClicked="#getStatusRooms" prefHeight="25.0" prefWidth="122.0" text="Статус номеров" />
+        <TableView fx:id="tableHotel" layoutX="21.0" layoutY="32.0" prefHeight="228.0" prefWidth="559.0">
+            <columns>
+            </columns>
+        </TableView>
+        <TextArea fx:id="ta_console" layoutX="21.0" layoutY="288.0" prefHeight="74.0" prefWidth="559.0" />
+      <Button layoutX="321.0" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#getFreeRooms" prefHeight="25.0" prefWidth="100.0" text="Незанятые" />
+      <Button layoutX="221.0" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#getOccupiedRooms" prefHeight="25.0" prefWidth="100.0" text="Занятые" />
+      <Button layoutX="121.0" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#getAllGuests" prefHeight="25.0" prefWidth="100.0" text="Постояльцы" />
+      <Button layoutX="21.0" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#getAllRooms" prefHeight="25.0" prefWidth="100.0" text="Номера" />
+      <Button layoutX="121.0" layoutY="369.0" mnemonicParsing="false" onMouseClicked="#vacateRoom" prefHeight="25.0" prefWidth="100.0" text="Освободить" />
+      <Button fx:id="but_get_room" layoutX="21.0" layoutY="369.0" mnemonicParsing="false" onMouseClicked="#registerRoom" prefHeight="25.0" prefWidth="100.0" text="Оформить" />
+      <ComboBox fx:id="cb_classes" layoutX="21.0" layoutY="262.0" prefHeight="25.0" prefWidth="130.0" />
+      <ComboBox fx:id="cb_occupancy" layoutX="151.0" layoutY="262.0" prefHeight="25.0" prefWidth="130.0" />
+    </children>
+</Pane>

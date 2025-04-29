@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="180.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hotel.hotelapp.AuthorizationController">
+   <children>
+      <TextField fx:id="tf_login" layoutX="83.0" layoutY="57.0" />
+      <TextField fx:id="tf_password" layoutX="83.0" layoutY="93.0" />
+      <Label layoutX="21.0" layoutY="59.0" text="Логин">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="95.0" text="Пароль">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="14.0" text="Авторизация" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button layoutX="64.0" layoutY="139.0" mnemonicParsing="false" onAction="#authorization" prefHeight="25.0" prefWidth="136.0" text="Вход" />
+   </children>
+</Pane>

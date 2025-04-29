@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hotel.hotelapp.AddAssignmentController">
+   <children>
+      <Button fx:id="buttonRegistration" layoutX="311.0" layoutY="281.0" mnemonicParsing="false" onAction="#registration" text="Оформить" />
+      <TableView fx:id="tv_guests" layoutX="14.0" layoutY="176.0" prefHeight="105.0" prefWidth="180.0" />
+      <TableView fx:id="tv_rooms" layoutX="210.0" layoutY="176.0" onMouseClicked="#selectDate" prefHeight="105.0" prefWidth="180.0" />
+      <TextField fx:id="tf_1" layoutX="104.0" layoutY="30.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField fx:id="tf_2" layoutX="104.0" layoutY="57.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField fx:id="tf_3" layoutX="104.0" layoutY="85.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField fx:id="tf_4" layoutX="104.0" layoutY="114.0" prefHeight="25.0" prefWidth="164.0" />
+      <RadioButton fx:id="rb_2" layoutX="14.0" layoutY="141.0" mnemonicParsing="false" onMouseClicked="#onClickedRB_2" text="Уже бывший в отеле постоялец" />
+      <RadioButton fx:id="rb_1" layoutX="14.0" layoutY="8.0" mnemonicParsing="false" onMouseClicked="#onClickedRB_1" text="Новый постоялец" />
+      <Label layoutX="13.0" layoutY="34.0" text="Фамилия" />
+      <Label layoutX="14.0" layoutY="61.0" text="Имя" />
+      <Label layoutX="13.0" layoutY="89.0" text="Отчество" />
+      <Label layoutX="14.0" layoutY="118.0" text="Паспорт" />
+      <Label layoutX="282.0" layoutY="13.0" text="Дата въезда" />
+      <Label layoutX="281.0" layoutY="61.0" text="Дата выезда" />
+      <DatePicker fx:id="dp_start" layoutX="281.0" layoutY="30.0" onAction="#selectDate" prefHeight="25.0" prefWidth="89.0" />
+      <DatePicker fx:id="dp_finish" layoutX="281.0" layoutY="85.0" onAction="#selectDate" prefHeight="25.0" prefWidth="89.0" />
+      <Label layoutX="39.0" layoutY="160.0" text="Постояльцы:" />
+      <Label layoutX="235.0" layoutY="160.0" text="Номера:" />
+      <Label fx:id="lbl" layoutX="23.0" layoutY="285.0" text="Цена: 0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+   </children>
+</Pane>
